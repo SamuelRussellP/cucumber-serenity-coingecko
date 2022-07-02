@@ -1,0 +1,8 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Testing Accessing Price Data Feature","User wants to access price data for Cryptocurrencies","SUCCESS","2022-07-02T19:55:57.573+07:00[Asia/Bangkok]","0.0","10.6"
+"Testing Accessing Price Data Feature","User wants to access price data for Categories","ERROR","2022-07-02T19:56:10.631+07:00[Asia/Bangkok]","0.0","11.25"
+"Testing Accessing Price Data Feature","User wants to access price data for Exchanges","ERROR","2022-07-02T19:56:22.658+07:00[Asia/Bangkok]","0.0","12.44"
+"Testing Coingecko Header Navigation Feature","User wants to language settings","SUCCESS","2022-07-02T19:56:35.97+07:00[Asia/Bangkok]","0.0","14.25"
+"Testing Coingecko Header Navigation Feature","User wants to change currency","SUCCESS","2022-07-02T19:56:50.977+07:00[Asia/Bangkok]","0.0","7.45"
+"Testing Portfolio Feature","User wants to create a new portfolio","SUCCESS","2022-07-02T19:56:59.139+07:00[Asia/Bangkok]","0.0","10.51"
+"Testing Cryptocurrency Search Feature","User wants to search for a valid cryptocurrency by typing in the search field.","SUCCESS","2022-07-02T19:57:10.396+07:00[Asia/Bangkok]","0.0","14.69"

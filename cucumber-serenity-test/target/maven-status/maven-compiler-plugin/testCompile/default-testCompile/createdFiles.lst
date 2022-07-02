@@ -1,0 +1,7 @@
+org\shirokuma\steps\SearchCryptoFeatureSteps.class
+org\shirokuma\pages\CoingeckoHomePage.class
+org\shirokuma\acceptancetests\AcceptanceTestSuite.class
+org\shirokuma\steps\HeaderNavigationSteps.class
+org\shirokuma\steps\PortfolioSteps.class
+org\shirokuma\steps\AccessingPriceDataSteps.class
+org\shirokuma\driver\CustomDriver.class

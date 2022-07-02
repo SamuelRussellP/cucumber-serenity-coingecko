@@ -1,0 +1,4 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Testing Accessing Price Data Feature","User wants to access price data for Cryptocurrencies","SUCCESS","2022-07-02T19:55:57.573+07:00[Asia/Bangkok]","0.0","10.6"
+"Testing Accessing Price Data Feature","User wants to access price data for Categories","ERROR","2022-07-02T19:56:10.631+07:00[Asia/Bangkok]","0.0","11.25"
+"Testing Accessing Price Data Feature","User wants to access price data for Exchanges","ERROR","2022-07-02T19:56:22.658+07:00[Asia/Bangkok]","0.0","12.44"
