@@ -157,7 +157,7 @@
             <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 02-07-2022 19:56</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 07-07-2022 10:49</span>
     <br style="clear:left"/>
 </div>
 
@@ -210,9 +210,9 @@
                 <table class="outcome-header">
                     <tr>
                         <td colspan="2" class="test-title-bar">
-                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-exclamation-triangle error-icon fa-2x' title='ERROR'></i></a></span>
                             <span class="test-case-title">
-                                <span class="success-color">User wants to language settings
+                                <span class="error-color">User wants to language settings
                                     <span class="related-issue-title"></span>
                                 </span>
                             </span>
@@ -229,12 +229,50 @@
 
     <div id="beforetable"></div>
     <div id="contenttilttle">
+            <div class="screenshotFailure panel panel-danger">
+
+    <div style="display:block">
+        <div class="table">
+            <div class="row">
+                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
+                    <span class="error-message error-message-title">Web driver exception: unknown error: cannot determine loading statusfrom unknown error: unexpected command response  (Session info: chrome=103.0.5060.66)Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'System info: host: 'LAPTOP-7SS7L9IU', ip: '10.177.24.140', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'Driver info: org.openqa.selenium.chrome.ChromeDriverCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.66, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\Samuel\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:4982}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}Session ID: 5bf16de13819ee876db553e2139994b5Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'System info: host: 'LAPTOP-7SS7L9IU', ip: '10.177.24.140', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'Driver info: driver.version: unknown</span>
+                </div>
+                <div class="col-sm-2">
+                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-overall""
+                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="far fa-eye"></i> More details</a>
+                </div>
+             </div>
+        </div>
+    <div>
+
+    <!-- Details Section -->
+    <div class="row stacktrace-details">
+      <div class="col">
+        <div class="collapse multi-collapse" id="stacktraceModal-overall">
+            <div class="card">
+                <div class="card-header">
+                    <h4>org.openqa.selenium.WebDriverException </h4>
+                </div>
+                <div class="card-body">
+                    <div>
+                        <pre>org.shirokuma.pages.CoingeckoHomePage.clickIndonesianSuggestionBtn(CoingeckoHomePage.java:85)<br />org.shirokuma.steps.HeaderNavigationSteps.userClicksOnInTheLanguageSuggestionsSection(HeaderNavigationSteps.java:26)<br />✽.User clicks on "Bahasa Indonesia" in the language suggestions section(file:///C:/Users/Samuel/Desktop/cucumber-serenity-test/cucumber-serenity-test/src/test/resources/features/coingecko/HeaderNavigation.feature:8)<br /></pre>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+                <div class="panel-body">
+                    <a href="pagesource2286315701397944691.html.txt" target="_blank" class="btn btn-info">HTML Source</a>
+                </div>
+            </div>
         <div class="slider-wrapper theme-default">
             <div id="slider">
-                <img src="7c83997d9b0c298c1c973d5860794b209a821de14cbfc88de16d5d199ed260e5.png" title=" Given User is on coingecko homepage" width="1920"/>
-                <img src="7ca74a4da45311aaf448861ccb6eeac3dee295447f5b945511b320e1bb77dbcb.png" title=" When User changes language to &quot;Bahasa Indonesia&quot;" width="1920"/>
-                <img src="45a8d07046a4bda7509579e55b8afdf19ff7da87da186534fa161f3d588c9fc5.png" title=" And User clicks on &quot;Bahasa Indonesia&quot; in the language suggestions section" width="1920"/>
-                <img src="45a8d07046a4bda7509579e55b8afdf19ff7da87da186534fa161f3d588c9fc5.png" title=" Then User should see the language changed to &quot;ID&quot;: <span class='success-color'>SUCCESS</span>" width="1920"/>
+                <img src="bcd06b2b0fcb5740ef73f8b3a02c6945ee1850e36655d84b343b704bde1e8240.png" title=" Given User is on coingecko homepage" width="1920"/>
+                <img src="6dd3874fb9c4a172a4c8b16831c6fd24bc1d8dbc2c3a476348927e826740f466.png" title=" When User changes language to &quot;Bahasa Indonesia&quot;" width="1920"/>
+                <img src="353f3a84272cfcd12feef4311e5e2c32ee4f0d0ff2ed07a4e788ceb982d1c514.png" title=" And User clicks on &quot;Bahasa Indonesia&quot; in the language suggestions section: <span class='error-color'>ERROR</span>" width="1920"/>
             </div>
         </div>
 
