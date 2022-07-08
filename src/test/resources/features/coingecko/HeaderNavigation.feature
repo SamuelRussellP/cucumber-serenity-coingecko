@@ -2,7 +2,7 @@
 Feature: Testing Coingecko Header Navigation Feature
 
   @Positive
-  Scenario: User wants to language settings
+  Scenario: User wants to change language settings
     Given User is on coingecko homepage
     When User changes language to "Bahasa Indonesia"
     And User clicks on "Bahasa Indonesia" in the language suggestions section

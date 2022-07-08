@@ -15,14 +15,8 @@ public class CoingeckoHomePage extends PageObject {
     @FindBy(xpath = "//*[@id=\"currency-selector\"]")
     private WebElementFacade currencyBtn;
 
-    @FindBy(xpath ="//a[9][@class=\"dropdown-item py-2\"][text()='Bahasa Indonesia']")
-    private WebElementFacade indonesianSuggestionBtn;
-
     @FindBy(xpath ="//*[@id=\"currency-selector\"]//input[@placeholder=\"Search...\"]")
     private WebElementFacade currencyInputField;
-
-    @FindBy(xpath ="//*[@id=\"currency-selector\"]//span[@class=\"d-md-inline currency-name\"][text()=\"Euro\"]")
-    private WebElementFacade euroCurrencySuggestionBtn;
 
     @FindBy(xpath ="//span[@class=\"no-wrap\"][@data-coin-id=\"1\"]")
     private WebElementFacade firstCryptoCurrencyPriceData;
@@ -36,14 +30,8 @@ public class CoingeckoHomePage extends PageObject {
     @FindBy(xpath="//span[@class=\"tw-text-sm\"][text()=\"Cryptocurrencies\"]")
     private WebElementFacade cryptocurrencyTabBtn;
 
-    @FindBy(xpath="//div[@class=\"border-bottom tw-pt-2 tw-pb-2\"]//a[1]")
-    private WebElementFacade categoriesBtn;
-
     @FindBy(xpath="//span[@class=\"tw-text-sm\"][text()=\"Exchanges\"]")
     private WebElementFacade exchangesTabBtn;
-
-    @FindBy(xpath="//a[@class=\"dropdown-item tw-py-2\"][text()=\"Crypto Exchanges\"]")
-    private WebElementFacade cryptoExchangesBtn;
 
     @FindBy(xpath ="//div[@class=\"tw-truncate\"]")
     private WebElementFacade searchBtn;
@@ -51,14 +39,8 @@ public class CoingeckoHomePage extends PageObject {
     @FindBy(xpath="//input[@placeholder=\"Search token name or exchange\"]")
     private WebElementFacade searchField;
 
-    @FindBy(xpath="//div//*[contains(text(),'Bitcoin (BTC)')]")
-    private WebElementFacade btcSuggestion;
-
     @FindBy(xpath="//div[@class=\"mr-md-3 tw-pl-2 md:tw-mb-0 tw-text-xl tw-font-bold tw-mb-0\"]")
     private WebElementFacade coinHeader;
-
-    @FindBy(xpath="//div[@class=\"p-2 text-sm\"]")
-    private WebElementFacade errorMessage;
 
     @FindBy(xpath="//a[@class=\"text-black tw-mr-4 tw-text-sm\"][contains(text(),'Portfolio')]")
     private WebElementFacade portfolioBtn;
@@ -78,6 +60,8 @@ public class CoingeckoHomePage extends PageObject {
     }
 
     public void clickIndonesianSuggestionBtn() {
+        WebElementFacade indonesianSuggestionBtn = findBy("//a[9][@class=\"dropdown-item py-2\"][text()='Bahasa Indonesia']");
+        waitFor(indonesianSuggestionBtn).waitUntilClickable();
         indonesianSuggestionBtn.click();
     }
 
@@ -90,6 +74,8 @@ public class CoingeckoHomePage extends PageObject {
     }
 
     public void clickEuroCurrencySuggestionBtn() {
+        WebElementFacade euroCurrencySuggestionBtn = findBy("//*[@id=\"currency-selector\"]//span[@class=\"d-md-inline currency-name\"][text()=\"Euro\"]");
+        waitFor(euroCurrencySuggestionBtn).waitUntilClickable();
         euroCurrencySuggestionBtn.click();
     }
 
@@ -110,6 +96,8 @@ public class CoingeckoHomePage extends PageObject {
     }
 
     public void clickCategoriesBtn() {
+        WebElementFacade categoriesBtn = findBy("//div[@class=\"border-bottom tw-pt-2 tw-pb-2\"]//a[1]");
+        waitFor(categoriesBtn).waitUntilClickable();
         categoriesBtn.click();
     }
 
@@ -122,6 +110,8 @@ public class CoingeckoHomePage extends PageObject {
     }
 
     public void clickCryptoExchangesBtn() {
+        WebElementFacade cryptoExchangesBtn = findBy("//a[@class=\"dropdown-item tw-py-2\"][text()=\"Crypto Exchanges\"]");
+        waitFor(cryptoExchangesBtn).waitUntilClickable();
         cryptoExchangesBtn.click();
     }
 
@@ -138,6 +128,8 @@ public class CoingeckoHomePage extends PageObject {
     }
 
     public void clickBtcSuggestion() {
+        WebElementFacade btcSuggestion = findBy("//div//*[contains(text(),'Bitcoin (BTC)')]");
+        waitFor(btcSuggestion).waitUntilClickable();
         btcSuggestion.click();
     }
 
@@ -146,7 +138,9 @@ public class CoingeckoHomePage extends PageObject {
     }
 
     public String getErrorMessage() {
-        return errorMessage.waitUntilVisible().getText();
+        WebElementFacade errorMessage = findBy("//div[@class=\"p-2 text-sm\"]");
+        waitFor(errorMessage).waitUntilVisible();
+        return errorMessage.getText();
     }
 
     public void clickPortfolioBtn() {

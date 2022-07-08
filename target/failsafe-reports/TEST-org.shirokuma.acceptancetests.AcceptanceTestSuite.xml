@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-failsafe-plugin/xsd/failsafe-test-report-3.0.xsd" version="3.0" name="org.shirokuma.acceptancetests.AcceptanceTestSuite" time="141.036" tests="9" errors="4" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-failsafe-plugin/xsd/failsafe-test-report-3.0.xsd" version="3.0" name="org.shirokuma.acceptancetests.AcceptanceTestSuite" time="152.077" tests="36" errors="6" skipped="2" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -19,7 +19,7 @@
     <property name="user.country" value="ID"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_211\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\Samuel\AppData\Local\Temp\surefire6715480513522014110\surefirebooter5173218611870622282.jar C:\Users\Samuel\AppData\Local\Temp\surefire6715480513522014110 2022-07-08T01-12-24_106-jvmRun1 surefire8757324133656670209tmp surefire_06653560537260724885tmp"/>
+    <property name="sun.java.command" value="C:\Users\Samuel\AppData\Local\Temp\surefire1046786829266360265\surefirebooter8638581993834824027.jar C:\Users\Samuel\AppData\Local\Temp\surefire1046786829266360265 2022-07-08T20-46-06_859-jvmRun1 surefire2274090648680545720tmp surefire_03504296888027267440tmp"/>
     <property name="surefire.test.class.path" value="C:\Users\Samuel\Desktop\cucumber-serenity-test\target\test-classes;C:\Users\Samuel\Desktop\cucumber-serenity-test\target\cucumber-serenity-test-1.0-SNAPSHOT.jar;C:\Users\Samuel\.m2\repository\net\serenity-bdd\serenity-core\2.3.2\serenity-core-2.3.2.jar;C:\Users\Samuel\.m2\repository\net\bytebuddy\byte-buddy\1.10.1\byte-buddy-1.10.1.jar;C:\Users\Samuel\.m2\repository\net\bytebuddy\byte-buddy-agent\1.10.1\byte-buddy-agent-1.10.1.jar;C:\Users\Samuel\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\Samuel\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Samuel\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Samuel\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Samuel\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Samuel\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Samuel\.m2\repository\com\google\inject\guice\4.2.2\guice-4.2.2.jar;C:\Users\Samuel\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\Samuel\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\Samuel\.m2\repository\org\ow2\asm\asm\7.2\asm-7.2.jar;C:\Users\Samuel\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\Samuel\.m2\repository\org\objenesis\objenesis\3.0.1\objenesis-3.0.1.jar;C:\Users\Samuel\.m2\repository\org\slf4j\slf4j-api\1.7.26\slf4j-api-1.7.26.jar;C:\Users\Samuel\.m2\repository\xml-apis\xml-apis\1.4.01\xml-apis-1.4.01.jar;C:\Users\Samuel\.m2\repository\io\cucumber\cucumber-core\6.6.0\cucumber-core-6.6.0.jar;C:\Users\Samuel\.m2\repository\io\cucumber\cucumber-gherkin\6.6.0\cucumber-gherkin-6.6.0.jar;C:\Users\Samuel\.m2\repository\io\cucumber\cucumber-gherkin-messages\6.6.0\cucumber-gherkin-messages-6.6.0.jar;C:\Users\Samuel\.m2\repository\io\cucumber\messages\13.0.1\messages-13.0.1.jar;C:\Users\Samuel\.m2\repository\io\cucumber\tag-expressions\3.0.0\tag-expressions-3.0.0.jar;C:\Users\Samuel\.m2\repository\io\cucumber\cucumber-expressions\10.3.0\cucumber-expressions-10.3.0.jar;C:\Users\Samuel\.m2\repository\io\cucumber\datatable\3.4.0\datatable-3.4.0.jar;C:\Users\Samuel\.m2\repository\io\cucumber\cucumber-plugin\6.6.0\cucumber-plugin-6.6.0.jar;C:\Users\Samuel\.m2\repository\io\cucumber\docstring\6.6.0\docstring-6.6.0.jar;C:\Users\Samuel\.m2\repository\io\cucumber\html-formatter\9.0.0\html-formatter-9.0.0.jar;C:\Users\Samuel\.m2\repository\io\cucumber\create-meta\2.0.1\create-meta-2.0.1.jar;C:\Users\Samuel\.m2\repository\io\cucumber\cucumber-java\6.6.0\cucumber-java-6.6.0.jar;C:\Users\Samuel\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Samuel\.m2\repository\io\vavr\vavr\0.9.0\vavr-0.9.0.jar;C:\Users\Samuel\.m2\repository\io\vavr\vavr-match\0.9.0\vavr-match-0.9.0.jar;C:\Users\Samuel\.m2\repository\javax\xml\bind\jaxb-api\2.2.12\jaxb-api-2.2.12.jar;C:\Users\Samuel\.m2\repository\com\sun\xml\bind\jaxb-core\2.3.0.1\jaxb-core-2.3.0.1.jar;C:\Users\Samuel\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.0.1\jaxb-impl-2.3.0.1.jar;C:\Users\Samuel\.m2\repository\javax\activation\activation\1.1.1\activation-1.1.1.jar;C:\Users\Samuel\.m2\repository\org\mockito\mockito-core\3.1.0\mockito-core-3.1.0.jar;C:\Users\Samuel\.m2\repository\net\serenity-bdd\serenity-report-resources\2.3.2\serenity-report-resources-2.3.2.jar;C:\Users\Samuel\.m2\repository\net\serenity-bdd\serenity-model\2.3.2\serenity-model-2.3.2.jar;C:\Users\Samuel\.m2\repository\commons-net\commons-net\3.6\commons-net-3.6.jar;C:\Users\Samuel\.m2\repository\org\apache\commons\commons-text\1.6\commons-text-1.6.jar;C:\Users\Samuel\.m2\repository\org\reflections\reflections\0.9.11\reflections-0.9.11.jar;C:\Users\Samuel\.m2\repository\org\javassist\javassist\3.21.0-GA\javassist-3.21.0-GA.jar;C:\Users\Samuel\.m2\repository\es\nitaur\markdown\txtmark\0.16\txtmark-0.16.jar;C:\Users\Samuel\.m2\repository\net\serenity-bdd\serenity-reports\2.3.2\serenity-reports-2.3.2.jar;C:\Users\Samuel\.m2\repository\net\serenity-bdd\serenity-stats\2.3.2\serenity-stats-2.3.2.jar;C:\Users\Samuel\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\Samuel\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\Samuel\.m2\repository\org\seleniumhq\selenium\selenium-server\3.141.59\selenium-server-3.141.59.jar;C:\Users\Samuel\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\Samuel\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\Samuel\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\Samuel\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Samuel\.m2\repository\net\jcip\jcip-annotations\1.0\jcip-annotations-1.0.jar;C:\Users\Samuel\.m2\repository\org\seleniumhq\selenium\jetty-repacked\9.4.12.v20180830\jetty-repacked-9.4.12.v20180830.jar;C:\Users\Samuel\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\Samuel\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\Samuel\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;C:\Users\Samuel\.m2\repository\org\yaml\snakeyaml\1.19\snakeyaml-1.19.jar;C:\Users\Samuel\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\Samuel\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\Samuel\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\Samuel\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\Samuel\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\Samuel\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\Samuel\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\Samuel\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\Samuel\.m2\repository\com\paulhammant\ngwebdriver\1.1.5\ngwebdriver-1.1.5.jar;C:\Users\Samuel\.m2\repository\com\assertthat\selenium-shutterbug\0.9.3\selenium-shutterbug-0.9.3.jar;C:\Users\Samuel\.m2\repository\org\projectlombok\lombok\1.18.8\lombok-1.18.8.jar;C:\Users\Samuel\.m2\repository\com\github\zafarkhaja\java-semver\0.9.0\java-semver-0.9.0.jar;C:\Users\Samuel\.m2\repository\com\codeborne\phantomjsdriver\1.4.4\phantomjsdriver-1.4.4.jar;C:\Users\Samuel\.m2\repository\org\seleniumhq\selenium\htmlunit-driver\2.37.0\htmlunit-driver-2.37.0.jar;C:\Users\Samuel\.m2\repository\io\appium\java-client\7.3.0\java-client-7.3.0.jar;C:\Users\Samuel\.m2\repository\commons-validator\commons-validator\1.6\commons-validator-1.6.jar;C:\Users\Samuel\.m2\repository\commons-beanutils\commons-beanutils\1.9.2\commons-beanutils-1.9.2.jar;C:\Users\Samuel\.m2\repository\commons-digester\commons-digester\1.8.1\commons-digester-1.8.1.jar;C:\Users\Samuel\.m2\repository\org\aspectj\aspectjweaver\1.9.4\aspectjweaver-1.9.4.jar;C:\Users\Samuel\.m2\repository\org\springframework\spring-context-support\5.1.2.RELEASE\spring-context-support-5.1.2.RELEASE.jar;C:\Users\Samuel\.m2\repository\org\springframework\spring-beans\5.1.2.RELEASE\spring-beans-5.1.2.RELEASE.jar;C:\Users\Samuel\.m2\repository\org\springframework\spring-context\5.1.2.RELEASE\spring-context-5.1.2.RELEASE.jar;C:\Users\Samuel\.m2\repository\org\springframework\spring-aop\5.1.2.RELEASE\spring-aop-5.1.2.RELEASE.jar;C:\Users\Samuel\.m2\repository\org\springframework\spring-expression\5.1.2.RELEASE\spring-expression-5.1.2.RELEASE.jar;C:\Users\Samuel\.m2\repository\org\springframework\spring-core\5.1.2.RELEASE\spring-core-5.1.2.RELEASE.jar;C:\Users\Samuel\.m2\repository\org\springframework\spring-jcl\5.1.2.RELEASE\spring-jcl-5.1.2.RELEASE.jar;C:\Users\Samuel\.m2\repository\org\codehaus\groovy\groovy\2.5.5\groovy-2.5.5.jar;C:\Users\Samuel\.m2\repository\net\sf\opencsv\opencsv\2.0\opencsv-2.0.jar;C:\Users\Samuel\.m2\repository\commons-beanutils\commons-beanutils-core\1.8.3\commons-beanutils-core-1.8.3.jar;C:\Users\Samuel\.m2\repository\joda-time\joda-time\2.7\joda-time-2.7.jar;C:\Users\Samuel\.m2\repository\com\thoughtworks\xstream\xstream\1.4.9\xstream-1.4.9.jar;C:\Users\Samuel\.m2\repository\xmlpull\xmlpull\1.1.3.1\xmlpull-1.1.3.1.jar;C:\Users\Samuel\.m2\repository\xpp3\xpp3_min\1.1.4c\xpp3_min-1.1.4c.jar;C:\Users\Samuel\.m2\repository\org\apache\commons\commons-lang3\3.8.1\commons-lang3-3.8.1.jar;C:\Users\Samuel\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\Samuel\.m2\repository\org\freemarker\freemarker\2.3.29\freemarker-2.3.29.jar;C:\Users\Samuel\.m2\repository\net\sourceforge\jexcelapi\jxl\2.6.12\jxl-2.6.12.jar;C:\Users\Samuel\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Samuel\.m2\repository\org\hamcrest\hamcrest-library\1.3\hamcrest-library-1.3.jar;C:\Users\Samuel\.m2\repository\net\sourceforge\htmlunit\htmlunit\2.37.0\htmlunit-2.37.0.jar;C:\Users\Samuel\.m2\repository\net\sourceforge\htmlunit\htmlunit-core-js\2.37.0\htmlunit-core-js-2.37.0.jar;C:\Users\Samuel\.m2\repository\net\sourceforge\htmlunit\neko-htmlunit\2.37.0\neko-htmlunit-2.37.0.jar;C:\Users\Samuel\.m2\repository\xerces\xercesImpl\2.12.0\xercesImpl-2.12.0.jar;C:\Users\Samuel\.m2\repository\net\sourceforge\htmlunit\htmlunit-cssparser\1.5.0\htmlunit-cssparser-1.5.0.jar;C:\Users\Samuel\.m2\repository\org\eclipse\jetty\websocket\websocket-client\9.4.26.v20200117\websocket-client-9.4.26.v20200117.jar;C:\Users\Samuel\.m2\repository\org\eclipse\jetty\jetty-client\9.4.26.v20200117\jetty-client-9.4.26.v20200117.jar;C:\Users\Samuel\.m2\repository\org\eclipse\jetty\jetty-http\9.4.26.v20200117\jetty-http-9.4.26.v20200117.jar;C:\Users\Samuel\.m2\repository\org\eclipse\jetty\jetty-xml\9.4.26.v20200117\jetty-xml-9.4.26.v20200117.jar;C:\Users\Samuel\.m2\repository\org\eclipse\jetty\jetty-util\9.4.26.v20200117\jetty-util-9.4.26.v20200117.jar;C:\Users\Samuel\.m2\repository\org\eclipse\jetty\jetty-io\9.4.26.v20200117\jetty-io-9.4.26.v20200117.jar;C:\Users\Samuel\.m2\repository\org\eclipse\jetty\websocket\websocket-common\9.4.26.v20200117\websocket-common-9.4.26.v20200117.jar;C:\Users\Samuel\.m2\repository\org\eclipse\jetty\websocket\websocket-api\9.4.26.v20200117\websocket-api-9.4.26.v20200117.jar;C:\Users\Samuel\.m2\repository\org\apache\httpcomponents\httpclient\4.5.5\httpclient-4.5.5.jar;C:\Users\Samuel\.m2\repository\org\apache\httpcomponents\httpcore\4.4.9\httpcore-4.4.9.jar;C:\Users\Samuel\.m2\repository\org\apache\httpcomponents\httpmime\4.5.5\httpmime-4.5.5.jar;C:\Users\Samuel\.m2\repository\org\fluentlenium\fluentlenium-core\0.10.2\fluentlenium-core-0.10.2.jar;C:\Users\Samuel\.m2\repository\com\jhlabs\filters\2.0.235\filters-2.0.235.jar;C:\Users\Samuel\.m2\repository\org\asciidoctor\asciidoctorj\1.5.6\asciidoctorj-1.5.6.jar;C:\Users\Samuel\.m2\repository\org\jruby\jruby-complete\1.7.26\jruby-complete-1.7.26.jar;C:\Users\Samuel\.m2\repository\org\imgscalr\imgscalr-lib\4.2\imgscalr-lib-4.2.jar;C:\Users\Samuel\.m2\repository\javax\el\javax.el-api\2.2.4\javax.el-api-2.2.4.jar;C:\Users\Samuel\.m2\repository\org\glassfish\web\javax.el\2.2.4\javax.el-2.2.4.jar;C:\Users\Samuel\.m2\repository\xalan\xalan\2.7.2\xalan-2.7.2.jar;C:\Users\Samuel\.m2\repository\xalan\serializer\2.7.2\serializer-2.7.2.jar;C:\Users\Samuel\.m2\repository\org\awaitility\awaitility\4.0.1\awaitility-4.0.1.jar;C:\Users\Samuel\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\Samuel\.m2\repository\com\typesafe\config\1.3.1\config-1.3.1.jar;C:\Users\Samuel\.m2\repository\org\jsoup\jsoup\1.10.3\jsoup-1.10.3.jar;C:\Users\Samuel\.m2\repository\com\google\jimfs\jimfs\1.1\jimfs-1.1.jar;C:\Users\Samuel\.m2\repository\com\vladsch\flexmark\flexmark-all\0.34.30\flexmark-all-0.34.30.jar;C:\Users\Samuel\.m2\repository\com\vladsch\flexmark\flexmark\0.34.30\flexmark-0.34.30.jar;C:\Users\Samuel\.m2\repository\com\vladsch\flexmark\flexmark-ext-abbreviation\0.34.30\flexmark-ext-abbreviation-0.34.30.jar;C:\Users\Samuel\.m2\repository\com\vladsch\flexmark\flexmark-ext-admonition\0.34.30\flexmark-ext-admonition-0.34.30.jar;C:\Users\Samuel\.m2\repository\com\vladsch\flexmark\flexmark-ext-anchorlink\0.34.30\flexmark-ext-anchorlink-0.34.30.jar;C:\Users\Samuel\.m2\repository\com\vladsch\flexmark\flexmark-ext-aside\0.34.30\flexmark-ext-aside-0.34.30.jar;C:\Users\Samuel\.m2\repository\com\vladsch\flexmark\flexmark-ext-attributes\0.34.30\flexmark-ext-attributes-0.34.30.jar;C:\Users\Samuel\.m2\repository\com\vladsch\flexmark\flexmark-ext-autolink\0.34.30\flexmark-ext-autolink-0.34.30.jar;C:\Users\Samuel\.m2\repository\org\nibor\autolink\autolink\0.6.0\autolink-0.6.0.jar;C:\Users\Samuel\.m2\repository\com\vladsch\flexmark\flexmark-ext-definition\0.34.30\flexmark-ext-definition-0.34.30.jar;C:\Users\Samuel\.m2\repository\com\vladsch\flexmark\flexmark-ext-emoji\0.34.30\flexmark-ext-emoji-0.34.30.jar;C:\Users\Samuel\.m2\repository\com\vladsch\flexmark\flexmark-ext-enumerated-reference\0.34.30\flexmark-ext-enumerated-reference-0.34.30.jar;C:\Users\Samuel\.m2\repository\com\vladsch\flexmark\flexmark-ext-escaped-character\0.34.30\flexmark-ext-escaped-character-0.34.30.jar;C:\Users\Samuel\.m2\repository\com\vladsch\flexmark\flexmark-ext-footnotes\0.34.30\flexmark-ext-footnotes-0.34.30.jar;C:\Users\Samuel\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-issues\0.34.30\flexmark-ext-gfm-issues-0.34.30.jar;C:\Users\Samuel\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-strikethrough\0.34.30\flexmark-ext-gfm-strikethrough-0.34.30.jar;C:\Users\Samuel\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-tables\0.34.30\flexmark-ext-gfm-tables-0.34.30.jar;C:\Users\Samuel\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-tasklist\0.34.30\flexmark-ext-gfm-tasklist-0.34.30.jar;C:\Users\Samuel\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-users\0.34.30\flexmark-ext-gfm-users-0.34.30.jar;C:\Users\Samuel\.m2\repository\com\vladsch\flexmark\flexmark-ext-gitlab\0.34.30\flexmark-ext-gitlab-0.34.30.jar;C:\Users\Samuel\.m2\repository\com\vladsch\flexmark\flexmark-ext-jekyll-front-matter\0.34.30\flexmark-ext-jekyll-front-matter-0.34.30.jar;C:\Users\Samuel\.m2\repository\com\vladsch\flexmark\flexmark-ext-jekyll-tag\0.34.30\flexmark-ext-jekyll-tag-0.34.30.jar;C:\Users\Samuel\.m2\repository\com\vladsch\flexmark\flexmark-ext-media-tags\0.34.30\flexmark-ext-media-tags-0.34.30.jar;C:\Users\Samuel\.m2\repository\com\vladsch\flexmark\flexmark-test-util\0.34.30\flexmark-test-util-0.34.30.jar;C:\Users\Samuel\.m2\repository\com\vladsch\flexmark\flexmark-ext-ins\0.34.30\flexmark-ext-ins-0.34.30.jar;C:\Users\Samuel\.m2\repository\com\vladsch\flexmark\flexmark-ext-xwiki-macros\0.34.30\flexmark-ext-xwiki-macros-0.34.30.jar;C:\Users\Samuel\.m2\repository\com\vladsch\flexmark\flexmark-ext-superscript\0.34.30\flexmark-ext-superscript-0.34.30.jar;C:\Users\Samuel\.m2\repository\com\vladsch\flexmark\flexmark-ext-tables\0.34.30\flexmark-ext-tables-0.34.30.jar;C:\Users\Samuel\.m2\repository\com\vladsch\flexmark\flexmark-ext-toc\0.34.30\flexmark-ext-toc-0.34.30.jar;C:\Users\Samuel\.m2\repository\com\vladsch\flexmark\flexmark-ext-typographic\0.34.30\flexmark-ext-typographic-0.34.30.jar;C:\Users\Samuel\.m2\repository\com\vladsch\flexmark\flexmark-ext-wikilink\0.34.30\flexmark-ext-wikilink-0.34.30.jar;C:\Users\Samuel\.m2\repository\com\vladsch\flexmark\flexmark-ext-yaml-front-matter\0.34.30\flexmark-ext-yaml-front-matter-0.34.30.jar;C:\Users\Samuel\.m2\repository\com\vladsch\flexmark\flexmark-ext-youtube-embedded\0.34.30\flexmark-ext-youtube-embedded-0.34.30.jar;C:\Users\Samuel\.m2\repository\com\vladsch\flexmark\flexmark-formatter\0.34.30\flexmark-formatter-0.34.30.jar;C:\Users\Samuel\.m2\repository\com\vladsch\flexmark\flexmark-html-parser\0.34.30\flexmark-html-parser-0.34.30.jar;C:\Users\Samuel\.m2\repository\com\vladsch\flexmark\flexmark-jira-converter\0.34.30\flexmark-jira-converter-0.34.30.jar;C:\Users\Samuel\.m2\repository\com\vladsch\flexmark\flexmark-pdf-converter\0.34.30\flexmark-pdf-converter-0.34.30.jar;C:\Users\Samuel\.m2\repository\com\openhtmltopdf\openhtmltopdf-core\0.0.1-RC13\openhtmltopdf-core-0.0.1-RC13.jar;C:\Users\Samuel\.m2\repository\com\openhtmltopdf\openhtmltopdf-pdfbox\0.0.1-RC13\openhtmltopdf-pdfbox-0.0.1-RC13.jar;C:\Users\Samuel\.m2\repository\org\apache\pdfbox\pdfbox\2.0.8\pdfbox-2.0.8.jar;C:\Users\Samuel\.m2\repository\org\apache\pdfbox\fontbox\2.0.8\fontbox-2.0.8.jar;C:\Users\Samuel\.m2\repository\org\apache\pdfbox\xmpbox\2.0.8\xmpbox-2.0.8.jar;C:\Users\Samuel\.m2\repository\de\rototor\pdfbox\graphics2d\0.12\graphics2d-0.12.jar;C:\Users\Samuel\.m2\repository\com\openhtmltopdf\openhtmltopdf-rtl-support\0.0.1-RC13\openhtmltopdf-rtl-support-0.0.1-RC13.jar;C:\Users\Samuel\.m2\repository\com\ibm\icu\icu4j\59.1\icu4j-59.1.jar;C:\Users\Samuel\.m2\repository\com\openhtmltopdf\openhtmltopdf-jsoup-dom-converter\0.0.1-RC13\openhtmltopdf-jsoup-dom-converter-0.0.1-RC13.jar;C:\Users\Samuel\.m2\repository\com\vladsch\flexmark\flexmark-profile-pegdown\0.34.30\flexmark-profile-pegdown-0.34.30.jar;C:\Users\Samuel\.m2\repository\com\vladsch\flexmark\flexmark-util\0.34.30\flexmark-util-0.34.30.jar;C:\Users\Samuel\.m2\repository\com\vladsch\flexmark\flexmark-youtrack-converter\0.34.30\flexmark-youtrack-converter-0.34.30.jar;C:\Users\Samuel\.m2\repository\net\serenity-bdd\serenity-screenplay\2.3.2\serenity-screenplay-2.3.2.jar;C:\Users\Samuel\.m2\repository\net\serenity-bdd\serenity-screenplay-webdriver\2.3.2\serenity-screenplay-webdriver-2.3.2.jar;C:\Users\Samuel\.m2\repository\net\serenity-bdd\serenity-ensure\2.3.2\serenity-ensure-2.3.2.jar;C:\Users\Samuel\.m2\repository\net\serenity-bdd\serenity-junit\2.3.2\serenity-junit-2.3.2.jar;C:\Users\Samuel\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib\1.3.31\kotlin-stdlib-1.3.31.jar;C:\Users\Samuel\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib-common\1.3.31\kotlin-stdlib-common-1.3.31.jar;C:\Users\Samuel\.m2\repository\org\jetbrains\annotations\13.0\annotations-13.0.jar;C:\Users\Samuel\.m2\repository\net\serenity-bdd\serenity-assertions\2.3.2\serenity-assertions-2.3.2.jar;C:\Users\Samuel\.m2\repository\net\serenity-bdd\serenity-screenplay-rest\2.3.2\serenity-screenplay-rest-2.3.2.jar;C:\Users\Samuel\.m2\repository\net\serenity-bdd\serenity-rest-assured\2.3.2\serenity-rest-assured-2.3.2.jar;C:\Users\Samuel\.m2\repository\io\rest-assured\rest-assured\3.3.0\rest-assured-3.3.0.jar;C:\Users\Samuel\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Samuel\.m2\repository\io\rest-assured\json-path\3.3.0\json-path-3.3.0.jar;C:\Users\Samuel\.m2\repository\io\rest-assured\rest-assured-common\3.3.0\rest-assured-common-3.3.0.jar;C:\Users\Samuel\.m2\repository\io\rest-assured\xml-path\3.3.0\xml-path-3.3.0.jar;C:\Users\Samuel\.m2\repository\com\sun\xml\bind\jaxb-osgi\2.2.10\jaxb-osgi-2.2.10.jar;C:\Users\Samuel\.m2\repository\org\apache\sling\org.apache.sling.javax.activation\0.1.0\org.apache.sling.javax.activation-0.1.0.jar;C:\Users\Samuel\.m2\repository\org\codehaus\groovy\groovy-xml\2.5.5\groovy-xml-2.5.5.jar;C:\Users\Samuel\.m2\repository\org\codehaus\groovy\groovy-json\2.5.5\groovy-json-2.5.5.jar;C:\Users\Samuel\.m2\repository\net\serenity-bdd\serenity-cucumber6\2.3.2\serenity-cucumber6-2.3.2.jar;C:\Users\Samuel\.m2\repository\io\cucumber\cucumber-junit\6.6.0\cucumber-junit-6.6.0.jar;C:\Users\Samuel\.m2\repository\io\cucumber\datatable-matchers\3.4.0\datatable-matchers-3.4.0.jar;C:\Users\Samuel\.m2\repository\org\apache\commons\commons-csv\1.5\commons-csv-1.5.jar;C:\Users\Samuel\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\Samuel\.m2\repository\org\slf4j\slf4j-simple\1.7.7\slf4j-simple-1.7.7.jar;C:\Users\Samuel\.m2\repository\org\junit\platform\junit-platform-launcher\1.5.2\junit-platform-launcher-1.5.2.jar;C:\Users\Samuel\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Samuel\.m2\repository\org\junit\platform\junit-platform-engine\1.5.2\junit-platform-engine-1.5.2.jar;C:\Users\Samuel\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Samuel\.m2\repository\org\junit\platform\junit-platform-commons\1.5.2\junit-platform-commons-1.5.2.jar;C:\Users\Samuel\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.5.2\junit-jupiter-engine-5.5.2.jar;C:\Users\Samuel\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.5.2\junit-jupiter-api-5.5.2.jar;C:\Users\Samuel\.m2\repository\org\junit\vintage\junit-vintage-engine\5.5.2\junit-vintage-engine-5.5.2.jar;C:\Users\Samuel\.m2\repository\org\assertj\assertj-core\3.13.2\assertj-core-3.13.2.jar;C:\Users\Samuel\.m2\repository\io\github\bonigarcia\webdrivermanager\5.2.1\webdrivermanager-5.2.1.jar;C:\Users\Samuel\.m2\repository\com\github\docker-java\docker-java\3.2.13\docker-java-3.2.13.jar;C:\Users\Samuel\.m2\repository\com\github\docker-java\docker-java-core\3.2.13\docker-java-core-3.2.13.jar;C:\Users\Samuel\.m2\repository\com\github\docker-java\docker-java-api\3.2.13\docker-java-api-3.2.13.jar;C:\Users\Samuel\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\Samuel\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\Samuel\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\Samuel\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\Samuel\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.64\bcpkix-jdk15on-1.64.jar;C:\Users\Samuel\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.64\bcprov-jdk15on-1.64.jar;C:\Users\Samuel\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\Samuel\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.2.13\docker-java-transport-httpclient5-3.2.13.jar;C:\Users\Samuel\.m2\repository\com\github\docker-java\docker-java-transport\3.2.13\docker-java-transport-3.2.13.jar;C:\Users\Samuel\.m2\repository\net\java\dev\jna\jna\5.8.0\jna-5.8.0.jar;C:\Users\Samuel\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\Samuel\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.1.3\httpclient5-5.1.3.jar;C:\Users\Samuel\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.1.3\httpcore5-5.1.3.jar;C:\Users\Samuel\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.1.3\httpcore5-h2-5.1.3.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\Samuel"/>
@@ -32,7 +32,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\Samuel\AppData\Local\Temp\surefire6715480513522014110\surefirebooter5173218611870622282.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Samuel\AppData\Local\Temp\surefire1046786829266360265\surefirebooter8638581993834824027.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_211\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_211\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="java.protocol.handler.pkgs" value="com.google.common"/>
@@ -63,7 +63,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="User wants to access price data for Cryptocurrencies" classname="Testing Accessing Price Data Feature" time="16.284">
+  <testcase name="User is on coingecko homepage" classname="User wants to access price data for Cryptocurrencies" time="9.243">
     <system-err><![CDATA[[main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/Samuel/Desktop/cucumber-serenity-test/src/test/resources/features/coingecko/AccessingPriceData.feature
 [main] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///C:/Users/Samuel/Desktop/cucumber-serenity-test/src/test/resources/features/coingecko/AccessingPriceData.feature is not under the 'features' directory. Requirements report will not be correctly generated!
 [main] INFO  - 
@@ -105,13 +105,17 @@ User wants to access price data for Cryptocurrencies(testing-accessing-price-dat
 -------------------------------------------------------------------
 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Samuel\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
-Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 25230
+Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 40617
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Jul 08, 2022 1:12:33 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jul 08, 2022 8:46:19 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-[main] INFO  - 
+]]></system-err>
+  </testcase>
+  <testcase name="User should be able to access price data for Cryptocurrencies" classname="User wants to access price data for Cryptocurrencies" time="1.123"/>
+  <testcase name="User is on coingecko homepage" classname="User wants to access price data for Categories" time="6.812">
+    <system-err><![CDATA[[main] INFO  - 
         __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
   _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
  (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
@@ -121,19 +125,7 @@ INFO: Detected dialect: W3C
 
 User wants to access price data for Cryptocurrencies
 ----------------------------------------------------------------------------
-]]></system-err>
-  </testcase>
-  <testcase name="User wants to access price data for Categories" classname="Testing Accessing Price Data Feature" time="16.723">
-    <error type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: 
-unknown error: unexpected command response
-  (Session info: chrome=103.0.5060.66)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-7SS7L9IU', ip: '10.177.188.226', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.66, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\Samuel\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:1180}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 21cff1f1dc76dabdb2075422d26133a9
-]]></error>
-    <system-err><![CDATA[[main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/Samuel/Desktop/cucumber-serenity-test/src/test/resources/features/coingecko/AccessingPriceData.feature
+[main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/Samuel/Desktop/cucumber-serenity-test/src/test/resources/features/coingecko/AccessingPriceData.feature
 [main] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///C:/Users/Samuel/Desktop/cucumber-serenity-test/src/test/resources/features/coingecko/AccessingPriceData.feature is not under the 'features' directory. Requirements report will not be correctly generated!
 [main] INFO  - 
  _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
@@ -146,13 +138,54 @@ User wants to access price data for Categories(testing-accessing-price-data-feat
 -------------------------------------------------------------------
 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Samuel\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
-Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 25873
+Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 26275
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Jul 08, 2022 1:12:48 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jul 08, 2022 8:46:37 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-[main] ERROR  - 
+]]></system-err>
+  </testcase>
+  <testcase name="User clicks on the Categories tab buton" classname="User wants to access price data for Categories" time="2.592">
+    <error type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: 
+unknown error: cannot determine loading status
+from unknown error: unexpected command response
+  (Session info: chrome=103.0.5060.66)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-7SS7L9IU', ip: '10.177.188.146', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.66, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\Samuel\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:11252}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e83edeb49748f3b1bf5c319eaf41e17e
+]]></error>
+  </testcase>
+  <testcase name="User should be able to access price data for Categories" classname="User wants to access price data for Categories" time="0">
+    <skipped type="io.cucumber.junit.SkippedThrowable"><![CDATA[io.cucumber.junit.SkippedThrowable: This step is skipped
+]]></skipped>
+  </testcase>
+  <testcase name="User wants to access price data for Categories" classname="Testing Accessing Price Data Feature" time="0.016">
+    <error type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: 
+unknown error: cannot determine loading status
+from unknown error: unexpected command response
+  (Session info: chrome=103.0.5060.66)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-7SS7L9IU', ip: '10.177.188.146', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.66, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\Samuel\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:11252}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e83edeb49748f3b1bf5c319eaf41e17e
+]]></error>
+  </testcase>
+  <testcase name="User wants to access price data for Categories" classname="Testing Accessing Price Data Feature" time="1.063">
+    <error type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: 
+unknown error: cannot determine loading status
+from unknown error: unexpected command response
+  (Session info: chrome=103.0.5060.66)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-7SS7L9IU', ip: '10.177.188.146', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.66, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\Samuel\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:11252}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e83edeb49748f3b1bf5c319eaf41e17e
+]]></error>
+    <system-err><![CDATA[[main] ERROR  - 
          __  _____ _____ ____ _____   _____ ____  ____   ___  ____  
  _      / / |_   _| ____/ ___|_   _| | ____|  _ \|  _ \ / _ \|  _ \ 
 (_)____| |    | | |  _| \___ \ | |   |  _| | |_) | |_) | | | | |_) |
@@ -163,19 +196,10 @@ INFO: Detected dialect: W3C
 User wants to access price data for Categories
 ---------------------------------------------------------------------
 [main] ERROR  -     Test failed at step: When User clicks on the Categories tab buton
-[main] ERROR  -     unknown error: unexpected command response  (Session info: chrome=103.0.5060.66)Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'System info: host: 'LAPTOP-7SS7L9IU', ip: '10.177.188.226', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'Driver info: org.openqa.selenium.chrome.ChromeDriverCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.66, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\Samuel\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:1180}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}Session ID: 21cff1f1dc76dabdb2075422d26133a9Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'System info: host: 'LAPTOP-7SS7L9IU', ip: '10.177.188.226', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'Driver info: driver.version: unknown
+[main] ERROR  -     unknown error: cannot determine loading statusfrom unknown error: unexpected command response  (Session info: chrome=103.0.5060.66)Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'System info: host: 'LAPTOP-7SS7L9IU', ip: '10.177.188.146', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'Driver info: org.openqa.selenium.chrome.ChromeDriverCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.66, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\Samuel\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:11252}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}Session ID: e83edeb49748f3b1bf5c319eaf41e17eBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'System info: host: 'LAPTOP-7SS7L9IU', ip: '10.177.188.146', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'Driver info: driver.version: unknown
 ]]></system-err>
   </testcase>
-  <testcase name="User wants to access price data for Exchanges" classname="Testing Accessing Price Data Feature" time="10.275">
-    <error type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: 
-unknown error: unexpected command response
-  (Session info: chrome=103.0.5060.66)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-7SS7L9IU', ip: '10.177.188.226', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.66, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\Samuel\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:1381}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 3fd217cc8e2663638de983e9b0c954bc
-]]></error>
+  <testcase name="User is on coingecko homepage" classname="User wants to access price data for Exchanges" time="5.517">
     <system-err><![CDATA[[main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/Samuel/Desktop/cucumber-serenity-test/src/test/resources/features/coingecko/AccessingPriceData.feature
 [main] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///C:/Users/Samuel/Desktop/cucumber-serenity-test/src/test/resources/features/coingecko/AccessingPriceData.feature is not under the 'features' directory. Requirements report will not be correctly generated!
 [main] INFO  - 
@@ -189,38 +213,28 @@ User wants to access price data for Exchanges(testing-accessing-price-data-featu
 -------------------------------------------------------------------
 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Samuel\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
-Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 20467
+Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 42462
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Jul 08, 2022 1:13:04 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jul 08, 2022 8:46:51 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-[main] ERROR  - 
-         __  _____ _____ ____ _____   _____ ____  ____   ___  ____  
- _      / / |_   _| ____/ ___|_   _| | ____|  _ \|  _ \ / _ \|  _ \ 
-(_)____| |    | | |  _| \___ \ | |   |  _| | |_) | |_) | | | | |_) |
- |_____| |    | | | |___ ___) || |   | |___|  _ <|  _ <| |_| |  _ < 
-(_)    | |    |_| |_____|____/ |_|   |_____|_| \_\_| \_\\___/|_| \_\
-        \_\                                                         
-
-User wants to access price data for Exchanges
----------------------------------------------------------------------
-[main] ERROR  -     Test failed at step: When User clicks on the Exchanges tab buton
-[main] ERROR  -     unknown error: unexpected command response  (Session info: chrome=103.0.5060.66)Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'System info: host: 'LAPTOP-7SS7L9IU', ip: '10.177.188.226', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'Driver info: org.openqa.selenium.chrome.ChromeDriverCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.66, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\Samuel\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:1381}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}Session ID: 3fd217cc8e2663638de983e9b0c954bcBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'System info: host: 'LAPTOP-7SS7L9IU', ip: '10.177.188.226', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'Driver info: driver.version: unknown
 ]]></system-err>
   </testcase>
-  <testcase name="User wants to language settings" classname="Testing Coingecko Header Navigation Feature" time="18.792">
-    <error type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: 
-unknown error: cannot determine loading status
-from unknown error: unexpected command response
-  (Session info: chrome=103.0.5060.66)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-7SS7L9IU', ip: '10.177.188.226', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.66, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\Samuel\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:1145}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 3bc8684ff2435940351c4ed1df0a2db2
-]]></error>
-    <system-err><![CDATA[[main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/Samuel/Desktop/cucumber-serenity-test/src/test/resources/features/coingecko/HeaderNavigation.feature
+  <testcase name="User clicks on the Exchanges tab buton" classname="User wants to access price data for Exchanges" time="3.011"/>
+  <testcase name="User should be able to access price data for Exchanges" classname="User wants to access price data for Exchanges" time="0.403"/>
+  <testcase name="User is on coingecko homepage" classname="User wants to change language settings" time="5.514">
+    <system-err><![CDATA[[main] INFO  - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+User wants to access price data for Exchanges
+----------------------------------------------------------------------------
+[main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/Samuel/Desktop/cucumber-serenity-test/src/test/resources/features/coingecko/HeaderNavigation.feature
 [main] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///C:/Users/Samuel/Desktop/cucumber-serenity-test/src/test/resources/features/coingecko/HeaderNavigation.feature is not under the 'features' directory. Requirements report will not be correctly generated!
 [main] INFO  - 
  _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
@@ -229,17 +243,59 @@ Session ID: 3bc8684ff2435940351c4ed1df0a2db2
   | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
   |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
 
-User wants to language settings(testing-coingecko-header-navigation-feature;user-wants-to-language-settings)
+User wants to change language settings(testing-coingecko-header-navigation-feature;user-wants-to-change-language-settings)
 -------------------------------------------------------------------
 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Samuel\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
-Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 11222
+Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 6456
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Jul 08, 2022 1:13:14 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jul 08, 2022 8:47:03 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-[main] ERROR  - 
+]]></system-err>
+  </testcase>
+  <testcase name="User changes language to &quot;Bahasa Indonesia&quot;" classname="User wants to change language settings" time="0.52"/>
+  <testcase name="User clicks on &quot;Bahasa Indonesia&quot; in the language suggestions section" classname="User wants to change language settings" time="3.152">
+    <error type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: 
+unknown error: cannot determine loading status
+from unknown error: unexpected command response
+  (Session info: chrome=103.0.5060.66)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-7SS7L9IU', ip: '10.177.188.146', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.66, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\Samuel\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:28545}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c16b1a33b96587938365a971f3815251
+]]></error>
+  </testcase>
+  <testcase name="User should see the language changed to &quot;ID&quot;" classname="User wants to change language settings" time="0">
+    <skipped type="io.cucumber.junit.SkippedThrowable"><![CDATA[io.cucumber.junit.SkippedThrowable: This step is skipped
+]]></skipped>
+  </testcase>
+  <testcase name="User wants to change language settings" classname="Testing Coingecko Header Navigation Feature" time="0.009">
+    <error type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: 
+unknown error: cannot determine loading status
+from unknown error: unexpected command response
+  (Session info: chrome=103.0.5060.66)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-7SS7L9IU', ip: '10.177.188.146', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.66, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\Samuel\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:28545}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c16b1a33b96587938365a971f3815251
+]]></error>
+  </testcase>
+  <testcase name="User wants to change language settings" classname="Testing Coingecko Header Navigation Feature" time="0.808">
+    <error type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: 
+unknown error: cannot determine loading status
+from unknown error: unexpected command response
+  (Session info: chrome=103.0.5060.66)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-7SS7L9IU', ip: '10.177.188.146', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.66, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\Samuel\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:28545}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c16b1a33b96587938365a971f3815251
+]]></error>
+    <system-err><![CDATA[[main] ERROR  - 
          __  _____ _____ ____ _____   _____ ____  ____   ___  ____  
  _      / / |_   _| ____/ ___|_   _| | ____|  _ \|  _ \ / _ \|  _ \ 
 (_)____| |    | | |  _| \___ \ | |   |  _| | |_) | |_) | | | | |_) |
@@ -247,13 +303,13 @@ INFO: Detected dialect: W3C
 (_)    | |    |_| |_____|____/ |_|   |_____|_| \_\_| \_\\___/|_| \_\
         \_\                                                         
 
-User wants to language settings
+User wants to change language settings
 ---------------------------------------------------------------------
 [main] ERROR  -     Test failed at step: And User clicks on "Bahasa Indonesia" in the language suggestions section
-[main] ERROR  -     unknown error: cannot determine loading statusfrom unknown error: unexpected command response  (Session info: chrome=103.0.5060.66)Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'System info: host: 'LAPTOP-7SS7L9IU', ip: '10.177.188.226', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'Driver info: org.openqa.selenium.chrome.ChromeDriverCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.66, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\Samuel\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:1145}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}Session ID: 3bc8684ff2435940351c4ed1df0a2db2Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'System info: host: 'LAPTOP-7SS7L9IU', ip: '10.177.188.226', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'Driver info: driver.version: unknown
+[main] ERROR  -     unknown error: cannot determine loading statusfrom unknown error: unexpected command response  (Session info: chrome=103.0.5060.66)Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'System info: host: 'LAPTOP-7SS7L9IU', ip: '10.177.188.146', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'Driver info: org.openqa.selenium.chrome.ChromeDriverCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.66, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\Samuel\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:28545}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}Session ID: c16b1a33b96587938365a971f3815251Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'System info: host: 'LAPTOP-7SS7L9IU', ip: '10.177.188.146', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'Driver info: driver.version: unknown
 ]]></system-err>
   </testcase>
-  <testcase name="User wants to change currency" classname="Testing Coingecko Header Navigation Feature" time="13.9">
+  <testcase name="User is on coingecko homepage" classname="User wants to change currency" time="5.671">
     <system-err><![CDATA[[main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/Samuel/Desktop/cucumber-serenity-test/src/test/resources/features/coingecko/HeaderNavigation.feature
 [main] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///C:/Users/Samuel/Desktop/cucumber-serenity-test/src/test/resources/features/coingecko/HeaderNavigation.feature is not under the 'features' directory. Requirements report will not be correctly generated!
 [main] INFO  - 
@@ -267,13 +323,19 @@ User wants to change currency(testing-coingecko-header-navigation-feature;user-w
 -------------------------------------------------------------------
 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Samuel\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
-Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 38285
+Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 29322
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Jul 08, 2022 1:13:33 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jul 08, 2022 8:47:19 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-[main] INFO  - 
+]]></system-err>
+  </testcase>
+  <testcase name="User changes currency to &quot;EUR&quot;" classname="User wants to change currency" time="0.368"/>
+  <testcase name="User clicks on &quot;EUR&quot; in the currency suggestions section" classname="User wants to change currency" time="3.889"/>
+  <testcase name="User should see the currency changed to &quot;EUR&quot;" classname="User wants to change currency" time="0.26"/>
+  <testcase name="User is on coingecko homepage" classname="User wants to create a new portfolio" time="5.845">
+    <system-err><![CDATA[[main] INFO  - 
         __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
   _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
  (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
@@ -283,10 +345,7 @@ INFO: Detected dialect: W3C
 
 User wants to change currency
 ----------------------------------------------------------------------------
-]]></system-err>
-  </testcase>
-  <testcase name="User wants to create a new portfolio" classname="Testing Portfolio Feature" time="9.751">
-    <system-err><![CDATA[[main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/Samuel/Desktop/cucumber-serenity-test/src/test/resources/features/coingecko/Portfolio.feature
+[main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/Samuel/Desktop/cucumber-serenity-test/src/test/resources/features/coingecko/Portfolio.feature
 [main] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///C:/Users/Samuel/Desktop/cucumber-serenity-test/src/test/resources/features/coingecko/Portfolio.feature is not under the 'features' directory. Requirements report will not be correctly generated!
 [main] INFO  - 
  _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
@@ -299,13 +358,18 @@ User wants to create a new portfolio(testing-portfolio-feature;user-wants-to-cre
 -------------------------------------------------------------------
 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Samuel\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
-Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 30506
+Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 42496
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Jul 08, 2022 1:13:46 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jul 08, 2022 8:47:38 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-[main] INFO  - 
+]]></system-err>
+  </testcase>
+  <testcase name="User clicks on the Portfolio tab" classname="User wants to create a new portfolio" time="2.349"/>
+  <testcase name="User should be able to see the Signup and Login Button" classname="User wants to create a new portfolio" time="0.389"/>
+  <testcase name="User is on coingecko homepage" classname="User wants to search for a valid cryptocurrency by typing in the search field" time="5.29">
+    <system-err><![CDATA[[main] INFO  - 
         __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
   _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
  (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
@@ -315,20 +379,7 @@ INFO: Detected dialect: W3C
 
 User wants to create a new portfolio
 ----------------------------------------------------------------------------
-]]></system-err>
-  </testcase>
-  <testcase name="User wants to search for a valid cryptocurrency by typing in the search field." classname="Testing Cryptocurrency Search Feature" time="14.402">
-    <error type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: 
-unknown error: cannot determine loading status
-from unknown error: unexpected command response
-  (Session info: chrome=103.0.5060.66)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-7SS7L9IU', ip: '10.177.188.226', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.66, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\Samuel\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:1112}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 90b96fe8cc6ad4ed003e75ad5a4af1c4
-]]></error>
-    <system-err><![CDATA[[main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/Samuel/Desktop/cucumber-serenity-test/src/test/resources/features/coingecko/SearchCrypto.feature
+[main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/Samuel/Desktop/cucumber-serenity-test/src/test/resources/features/coingecko/SearchCrypto.feature
 [main] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///C:/Users/Samuel/Desktop/cucumber-serenity-test/src/test/resources/features/coingecko/SearchCrypto.feature is not under the 'features' directory. Requirements report will not be correctly generated!
 [main] INFO  - 
  _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
@@ -337,32 +388,34 @@ Session ID: 90b96fe8cc6ad4ed003e75ad5a4af1c4
   | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
   |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
 
-User wants to search for a valid cryptocurrency by typing in the search field.(testing-cryptocurrency-search-feature;user-wants-to-search-for-a-valid-cryptocurrency-by-typing-in-the-search-field.)
+User wants to search for a valid cryptocurrency by typing in the search field(testing-cryptocurrency-search-feature;user-wants-to-search-for-a-valid-cryptocurrency-by-typing-in-the-search-field)
 -------------------------------------------------------------------
 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Samuel\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
-Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 24526
+Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 20919
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Jul 08, 2022 1:13:56 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jul 08, 2022 8:47:50 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-[main] ERROR  - 
-         __  _____ _____ ____ _____   _____ ____  ____   ___  ____  
- _      / / |_   _| ____/ ___|_   _| | ____|  _ \|  _ \ / _ \|  _ \ 
-(_)____| |    | | |  _| \___ \ | |   |  _| | |_) | |_) | | | | |_) |
- |_____| |    | | | |___ ___) || |   | |___|  _ <|  _ <| |_| |  _ < 
-(_)    | |    |_| |_____|____/ |_|   |_____|_| \_\_| \_\\___/|_| \_\
-        \_\                                                         
-
-User wants to search for a valid cryptocurrency by typing in the search field.
----------------------------------------------------------------------
-[main] ERROR  -     Test failed at step: And User clicks on the suggested corresponding crypto
-[main] ERROR  -     unknown error: cannot determine loading statusfrom unknown error: unexpected command response  (Session info: chrome=103.0.5060.66)Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'System info: host: 'LAPTOP-7SS7L9IU', ip: '10.177.188.226', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'Driver info: org.openqa.selenium.chrome.ChromeDriverCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.66, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\Samuel\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:1112}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}Session ID: 90b96fe8cc6ad4ed003e75ad5a4af1c4Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'System info: host: 'LAPTOP-7SS7L9IU', ip: '10.177.188.226', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'Driver info: driver.version: unknown
 ]]></system-err>
   </testcase>
-  <testcase name="User wants for an invalid cryptocurrency by typing in the search field. #1" classname="Testing Cryptocurrency Search Feature" time="21.981">
-    <system-err><![CDATA[[main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/Samuel/Desktop/cucumber-serenity-test/src/test/resources/features/coingecko/SearchCrypto.feature
+  <testcase name="User clicks on the search field" classname="User wants to search for a valid cryptocurrency by typing in the search field" time="0.345"/>
+  <testcase name="User types in &quot;BTC&quot; as valid cryptocurrency" classname="User wants to search for a valid cryptocurrency by typing in the search field" time="1.182"/>
+  <testcase name="User clicks on the suggested corresponding crypto" classname="User wants to search for a valid cryptocurrency by typing in the search field" time="3.51"/>
+  <testcase name="User shall see the valid &quot;BTC&quot; cryptocurrency page" classname="User wants to search for a valid cryptocurrency by typing in the search field" time="0.423"/>
+  <testcase name="User is on coingecko homepage" classname="User wants for an invalid cryptocurrency by typing in the search field #1" time="5.755">
+    <system-err><![CDATA[[main] INFO  - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+User wants to search for a valid cryptocurrency by typing in the search field
+----------------------------------------------------------------------------
+[main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/Samuel/Desktop/cucumber-serenity-test/src/test/resources/features/coingecko/SearchCrypto.feature
 [main] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///C:/Users/Samuel/Desktop/cucumber-serenity-test/src/test/resources/features/coingecko/SearchCrypto.feature is not under the 'features' directory. Requirements report will not be correctly generated!
 [main] INFO  - 
  _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
@@ -371,113 +424,23 @@ User wants to search for a valid cryptocurrency by typing in the search field.
   | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
   |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
 
-User wants for an invalid cryptocurrency by typing in the search field.(testing-cryptocurrency-search-feature;user-wants-for-an-invalid-cryptocurrency-by-typing-in-the-search-field.)
+User wants for an invalid cryptocurrency by typing in the search field(testing-cryptocurrency-search-feature;user-wants-for-an-invalid-cryptocurrency-by-typing-in-the-search-field)
 -------------------------------------------------------------------
 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Samuel\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
-Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 47277
+Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 37963
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Jul 08, 2022 1:14:11 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jul 08, 2022 8:48:07 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-[main] WARN net.serenitybdd.core.photography.PhotoSession - Failed to take screenshot
-org.openqa.selenium.WebDriverException: unknown error: cannot activate web view
-  (Session info: chrome=103.0.5060.66)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-7SS7L9IU', ip: '10.177.188.226', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.66, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\Samuel\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:1430}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 785c195b7b2d6a74fc234b41f3f085bb
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
-	at com.assertthat.selenium_shutterbug.utils.web.Browser.takeScreenshot(Browser.java:88)
-	at com.assertthat.selenium_shutterbug.core.Shutterbug.shootPage(Shutterbug.java:107)
-	at com.assertthat.selenium_shutterbug.core.Shutterbug.shootPage(Shutterbug.java:72)
-	at net.serenitybdd.core.photography.PhotoSession.takeScreenshot(PhotoSession.java:63)
-	at net.serenitybdd.core.photography.PhotoSessionBooking.andSaveToDirectory(PhotoSessionBooking.java:40)
-	at net.thucydides.core.steps.BaseStepListener.screenshotFrom(BaseStepListener.java:971)
-	at net.thucydides.core.steps.BaseStepListener.lambda$grabScreenshots$6(BaseStepListener.java:962)
-	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
-	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1382)
-	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
-	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
-	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708)
-	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499)
-	at net.thucydides.core.steps.BaseStepListener.grabScreenshots(BaseStepListener.java:964)
-	at net.thucydides.core.steps.BaseStepListener.take(BaseStepListener.java:862)
-	at net.thucydides.core.steps.BaseStepListener.takeEndOfStepScreenshotFor(BaseStepListener.java:843)
-	at net.thucydides.core.steps.BaseStepListener.stepFinished(BaseStepListener.java:714)
-	at net.thucydides.core.steps.StepEventBus.stepFinished(StepEventBus.java:407)
-	at io.cucumber.core.plugin.SerenityReporter.recordStepResult(SerenityReporter.java:765)
-	at io.cucumber.core.plugin.SerenityReporter.handleResult(SerenityReporter.java:754)
-	at io.cucumber.core.plugin.SerenityReporter.handleTestStepFinished(SerenityReporter.java:327)
-	at io.cucumber.core.eventbus.AbstractEventPublisher.send(AbstractEventPublisher.java:51)
-	at io.cucumber.core.eventbus.AbstractEventBus.send(AbstractEventBus.java:12)
-	at io.cucumber.core.runtime.SynchronizedEventBus.send(SynchronizedEventBus.java:47)
-	at io.cucumber.core.runtime.ThreadLocalRunnerSupplier$LocalEventBus.send(ThreadLocalRunnerSupplier.java:66)
-	at io.cucumber.core.runner.TestStep.emitTestStepFinished(TestStep.java:129)
-	at io.cucumber.core.runner.TestStep.run(TestStep.java:73)
-	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:49)
-	at io.cucumber.core.runner.TestCase.run(TestCase.java:99)
-	at io.cucumber.core.runner.Runner.runPickle(Runner.java:71)
-	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:151)
-	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)
-	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
-	at io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:234)
-	at io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:57)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
-	at io.cucumber.junit.CucumberSerenityRunner$RunCucumber.evaluate(CucumberSerenityRunner.java:262)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
-	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
-	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
-	at org.junit.vintage.engine.execution.RunnerExecutor.execute(RunnerExecutor.java:40)
-	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
-	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
-	at java.util.Iterator.forEachRemaining(Iterator.java:116)
-	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
-	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
-	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
-	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
-	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
-	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
-	at org.junit.vintage.engine.VintageTestEngine.executeAllChildren(VintageTestEngine.java:80)
-	at org.junit.vintage.engine.VintageTestEngine.execute(VintageTestEngine.java:71)
-	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:229)
-	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:197)
-	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:211)
-	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:191)
-	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128)
-	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:188)
-	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:154)
-	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:128)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
-[main] INFO  - 
+]]></system-err>
+  </testcase>
+  <testcase name="User clicks on the search field" classname="User wants for an invalid cryptocurrency by typing in the search field #1" time="0.376"/>
+  <testcase name="User types in &quot;RDM&quot; as invalid cryptocurrency" classname="User wants for an invalid cryptocurrency by typing in the search field #1" time="4.431"/>
+  <testcase name="User shall see the &quot;No Results Found&quot; message" classname="User wants for an invalid cryptocurrency by typing in the search field #1" time="0.22"/>
+  <testcase name="User is on coingecko homepage" classname="User wants for an invalid cryptocurrency by typing in the search field #2" time="5.493">
+    <system-err><![CDATA[[main] INFO  - 
         __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
   _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
  (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
@@ -485,31 +448,21 @@ Session ID: 785c195b7b2d6a74fc234b41f3f085bb
  (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
         /_/                                                                
 
-User wants for an invalid cryptocurrency by typing in the search field.
+User wants for an invalid cryptocurrency by typing in the search field
 ----------------------------------------------------------------------------
-]]></system-err>
-  </testcase>
-  <testcase name="User wants for an invalid cryptocurrency by typing in the search field. #2" classname="Testing Cryptocurrency Search Feature" time="14.825">
-    <system-err><![CDATA[[main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/Samuel/Desktop/cucumber-serenity-test/src/test/resources/features/coingecko/SearchCrypto.feature
+[main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/Samuel/Desktop/cucumber-serenity-test/src/test/resources/features/coingecko/SearchCrypto.feature
 [main] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///C:/Users/Samuel/Desktop/cucumber-serenity-test/src/test/resources/features/coingecko/SearchCrypto.feature is not under the 'features' directory. Requirements report will not be correctly generated!
 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Samuel\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
-Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 4917
+Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 34677
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Jul 08, 2022 1:14:33 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jul 08, 2022 8:48:24 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-[main] INFO  - 
-        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
-  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
- (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
-  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
- (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
-        /_/                                                                
-
-User wants for an invalid cryptocurrency by typing in the search field.
-----------------------------------------------------------------------------
 ]]></system-err>
   </testcase>
+  <testcase name="User clicks on the search field" classname="User wants for an invalid cryptocurrency by typing in the search field #2" time="1.175"/>
+  <testcase name="User types in &quot;12345&quot; as invalid cryptocurrency" classname="User wants for an invalid cryptocurrency by typing in the search field #2" time="4.324"/>
+  <testcase name="User shall see the &quot;No Results Found&quot; message" classname="User wants for an invalid cryptocurrency by typing in the search field #2" time="0.21"/>
 </testsuite>
