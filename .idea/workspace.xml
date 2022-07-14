@@ -4,12 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c599520-212a-4cc8-9340-a1bcf06ef460" name="Changes" comment="Add Files">
+    <list default="true" id="8c599520-212a-4cc8-9340-a1bcf06ef460" name="Changes" comment="Optimizing Web Elements retrieval">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/shirokuma/acceptancetests/AcceptanceTestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/shirokuma/acceptancetests/AcceptanceTestSuite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/shirokuma/pages/CoingeckoHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/shirokuma/pages/CoingeckoHomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/coingecko/HeaderNavigation.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/coingecko/HeaderNavigation.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/coingecko/SearchCrypto.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/coingecko/SearchCrypto.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-serenity-test-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-serenity-test-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/TEST-org.shirokuma.acceptancetests.AcceptanceTestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/failsafe-reports/TEST-org.shirokuma.acceptancetests.AcceptanceTestSuite.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/org.shirokuma.acceptancetests.AcceptanceTestSuite.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/failsafe-reports/org.shirokuma.acceptancetests.AcceptanceTestSuite.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/57eac95be5c1d9715f393832e63e0a72029aad8ead47774a9201d5e339345ad6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/73f22f42227fb59312674b42316ee2ec8154ada8e3eb1bf9a43fde9e015fb23d.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/coingecko/HeaderNavigation.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/coingecko/HeaderNavigation.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/coingecko/SearchCrypto.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/coingecko/SearchCrypto.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/shirokuma/acceptancetests/AcceptanceTestSuite.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/shirokuma/acceptancetests/AcceptanceTestSuite.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/shirokuma/pages/CoingeckoHomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/shirokuma/pages/CoingeckoHomePage.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657217996573</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Optimizing Web Elements retrieval">
+      <created>1657288238996</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1657288238996</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -130,7 +143,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add Files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Files" />
+    <MESSAGE value="Optimizing Web Elements retrieval" />
+    <option name="LAST_COMMIT_MESSAGE" value="Optimizing Web Elements retrieval" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
